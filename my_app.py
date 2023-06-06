@@ -1,6 +1,6 @@
 # first program
-name = input (' what is your name? ')
-print(' hellow + name ')
+name = input ('what is your name?')
+print('hellow ' + name)
  
 #Examples for Variables and Datatypes
 #using strings
