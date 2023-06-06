@@ -15,3 +15,10 @@ print(name)
 print(age)
 print(pi)
 print(cars)
+
+
+first_name = Rajkumar
+surname = Somishetty
+full_name = first_name + surname
+
+print(full_name)
