@@ -10,3 +10,8 @@ pi = 3.14
 
 #using list
 cars = ['benz', 'bmw', 'Range Rover']
+
+print(name)
+print(age)
+print(pi)
+print(cars)
