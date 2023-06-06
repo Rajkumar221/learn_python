@@ -17,8 +17,7 @@ print(pi)
 print(cars)
 
 
-first_name = Rajkumar
 surname = Somishetty
-full_name = first_name + surname
+full_name = sname + surname
 
 print(full_name)
