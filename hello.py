@@ -18,6 +18,9 @@ print(cars)
 
 
 surname = 'Somishetty'
-full_name = name + surname
+full_name = name + ' ' + surname
 
 print(full_name)
+print(len(name))
+print(len(surname))
+
