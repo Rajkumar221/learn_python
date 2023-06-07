@@ -31,3 +31,8 @@ if age >= 18:
     print('Adult')
 else:
     print('not an adult')
+
+if age >= 15:
+    print('Adult')
+else:
+    print('not an adult')
