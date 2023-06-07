@@ -21,7 +21,7 @@ print('Rajkumar'.endswith('r'))
 
 
 # Statements
-is_adult = true
+is_adult = True
 age = 18
 
 if is_adult:
