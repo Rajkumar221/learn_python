@@ -1,0 +1,36 @@
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+Rajkumar = Person('Rajkumar', 23)
+Sravani = Person('Sravani', 22)
+
+print (Rajkumar.name + ' ' + str(Rajkumar.age))
+print (Sravani.name + ' ' + str(Sravani.age))       
+
+
+# Classes behavior and objects
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def walk(self):
+         print(self.name + 'is walking...')
+
+    def speak(self):
+         print('Hello i am ' + self.name + ' and i am ' + str(self.age) + ' years old' )
+
+Rajkumar = Person('Rajkumar', 23)
+Rajkumar.walk()
+Rajkumar.speak()
+
+Sravani = Person('Sravani', 22)
+Sravani.speak()
+Sravani.walk()
+
+
+#print (Rajkumar.name + ' ' + str(Rajkumar.age))
+#print (Sravani.name + ' ' + str(Sravani.age))
+
