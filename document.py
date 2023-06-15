@@ -10,7 +10,7 @@ document.add_picture(
 
 name = input('what is your name? ')
 Phone_number = input('what is your phone number? ')
-email = input('what is your phone number? ')
+email = input('what is your email? ')
 
 document.add_paragraph(
     name + ' | ' + Phone_number + ' | ' + email)
@@ -52,10 +52,26 @@ while True:
         p.add_run(from_date + ' ' + to_date + '\n').italic
 
         experience_details = input(
-            'Describe your experince at ' +  company)
+            'Describe your experince at ' +  company + ' ')
         p.add_run(experience_details)
     else: 
         break
+
+# Skills
+document.add_heading('Skills')
+skill = input('Enter Skills')
+p = document.add_paragraph(skill)
+p.style = 'List Bullet'
+
+while True:
+    has_more_skills = input('Do you have more skills? Yes or No ')
+    if has_more_skills.lower() == 'yes':
+        skill = input('Enter skill')
+        p = document.add_paragraph(skill)
+        p.style = 'List Bullet'
+    else:
+        break
+
 
 
 
